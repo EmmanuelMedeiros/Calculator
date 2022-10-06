@@ -18,9 +18,6 @@ document.querySelectorAll('.charKey').forEach(function (charKeyBttn) {
     })
 })
 
-body.addEventListener('click', function () {
-    input.focus()
-})
 
 document.getElementById('clear').addEventListener('click', clear)
 
