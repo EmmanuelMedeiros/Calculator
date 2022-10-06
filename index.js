@@ -1,9 +1,9 @@
 const theme = document.querySelector('#themeSwitcher');
 const container = document.querySelector('.container');
-const body = document.querySelector('body');
 const root = document.querySelector(':root');
 const input = document.getElementById('input');
 const result = document.getElementById('result');
+const charKey = document.querySelector('.charKey')
 
 theme.addEventListener('click', function () {
     const body = document.querySelector('body')
