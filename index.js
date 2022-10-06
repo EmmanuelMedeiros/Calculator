@@ -14,7 +14,6 @@ document.querySelectorAll('.charKey').forEach(function (charKeyBttn) {
     charKeyBttn.addEventListener('click', function () {
         const value = charKeyBttn.dataset.value
         input.value += value
-        input.focus()
     })
 })
 
