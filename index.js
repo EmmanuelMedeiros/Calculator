@@ -1,5 +1,6 @@
 const theme = document.querySelector('#themeSwitcher');
 const container = document.querySelector('.container');
+const body = document.querySelector('body');
 const root = document.querySelector(':root');
 const input = document.getElementById('input');
 const result = document.getElementById('result');
@@ -17,7 +18,7 @@ document.querySelectorAll('.charKey').forEach(function (charKeyBttn) {
     })
 })
 
-root.addEventListener('click', function () {
+body.addEventListener('click', function () {
     input.focus()
 })
 
